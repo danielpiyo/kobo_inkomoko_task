@@ -144,4 +144,4 @@ cython_debug/
 # Temporary files
 *.tmp
 *.temp
-*.key
+*.pem
