@@ -158,3 +158,5 @@ include/site/python3.10/greenlet/
 
 # Ignore pyvenv.cfg file
 pyvenv.cfg
+key.pem
+cert.pem
