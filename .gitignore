@@ -7,8 +7,11 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+include/
+lib64/
 .Python
 env/
+.cfg
 venv/
 ENV/
 env.bak/
@@ -145,3 +148,4 @@ cython_debug/
 *.tmp
 *.temp
 *.pem
+.gitignore
