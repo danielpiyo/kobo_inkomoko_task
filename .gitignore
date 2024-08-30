@@ -149,3 +149,14 @@ cython_debug/
 *.temp
 *.pem
 .gitignore
+
+# Ignore lib64 directory
+lib64/
+
+# Ignore the specific directory under include/site/python3.10
+include/site/python3.10/greenlet/
+
+# Ignore pyvenv.cfg file
+pyvenv.cfg
+key.pem
+cert.pem
