@@ -1,12 +1,12 @@
 # Real-Time Data Extraction from KoboToolbox
 
+![ETL Diagram](/assets/ETL.png)
+
 ## Overview
 
 This project implements a solution to extract data from KoboToolbox, save it in a MySQL database, and handle real-time updates. The solution is built using Python, Flask, and MySQL, and it includes a webhook for real-time data processing and a periodic data extraction script.
 
-![ETL Diagram](/assets/ETL.png)
-
-## Features
+## Features 
 
 - **Real-Time Data Updates**: Automatically update the database with new or modified records via a Flask webhook.
 - **Scheduled Data Extraction**: Use a cron job to periodically extract data from KoboToolbox, ensuring no records are missed.
