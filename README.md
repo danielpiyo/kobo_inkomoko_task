@@ -207,7 +207,7 @@ export KOBO_HEADER_TOKEN=''
 
 Based on the data extracted from kobotoolbox, I decided to create a schema with 5 tables that are normalized to the 3rd normalization (surveys, section_a, section_b, section_c and business_status)
 
-![alt text](image.png)
+![alt text](/assets/image.png)
 
 - **Surveys Table**: Stores general survey information.
 - **Section A Table**: Stores section A data, linked to surveys.
@@ -218,6 +218,7 @@ Based on the data extracted from kobotoolbox, I decided to create a schema with 
 ## Error Handling and Logging
 
 - **Webhook**: Errors during data processing are logged in app.log, and a 500 error is returned to the sender.
+- **Database Operation**: All Database related logs are captured (database_operations.log). It also ensures that all logs are saved to a file while also allowing for real-time feedback on errors in the console.
 - **ETL Script**: Errors during extraction or saving data are logged, and the script exits gracefully.
 
 ## Testing
