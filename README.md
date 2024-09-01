@@ -207,7 +207,7 @@ export KOBO_HEADER_TOKEN=''
 
 Based on the data extracted from kobotoolbox, I decided to create a schema with 5 tables that are normalized to the 3rd normalization (surveys, section_a, section_b, section_c and business_status)
 
-![alt text](image.png)
+![alt text](/assets/image.png)
 
 - **Surveys Table**: Stores general survey information.
 - **Section A Table**: Stores section A data, linked to surveys.
