@@ -218,6 +218,7 @@ Based on the data extracted from kobotoolbox, I decided to create a schema with 
 ## Error Handling and Logging
 
 - **Webhook**: Errors during data processing are logged in app.log, and a 500 error is returned to the sender.
+- **Database Operation**: All Database related logs are captured (database_operations.log). It also ensures that all logs are saved to a file while also allowing for real-time feedback on errors in the console.
 - **ETL Script**: Errors during extraction or saving data are logged, and the script exits gracefully.
 
 ## Testing
