@@ -183,6 +183,12 @@ crontab -e
 # To run the script every 20 min just for test 
 */20 * * * * /usr/bin/python3 /home/flask/kobo_env/data_pipeline.py
 ```
+
+Alternatively, run the ETL script (data_pipeline.py)
+
+```bash
+python data_pipeline.py
+```
 Note: 
 Update your .bashrc or .env file with these environment variables. For securety we keep them in environment Update your environment variables as shown in the documentation shared:
 export DB_NAME=''
